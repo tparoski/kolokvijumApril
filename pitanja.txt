@@ -1,0 +1,40 @@
+1. Na aplikaciji gradebook dodate su 2 nove funkcionalnosti Edit student i Remove student. Nakon sto ste zavrsili sa testiranjem
+ tih funkcionalnosti sta cete testirati (koje funkcionalnosti) u okviru regresionih testova?
+
+U okviru regresionih testiranja bi trebalo ponovo testirati sve funkcionalnosti na koje su mogle da uticu promene koda.
+
+2. Kada pocnemo da testiramo neku funkcionalnost prvi put, kojim redoslednom cemo prvo testirajti (obeleziti sa 1 ono sto prvo treba uraditi, a brojevima 2,3,4 sta nakon toga treba uraditi)
+a. Osnovni negativni test case 1
+b. Osnovni pozitivni test case 2
+c. Sve pozitivne test casove 4
+d. Sve negativne test casove 3
+
+3. Odredi priority i severity za sledece bagove (mozete ostaviti kratko objasnjenje):
+
+a. Na aplikaciji za kupovinu garderobe, kada korisnik kupuje sve iz korpe, naplati mu se puna cena proizvoda bez oduzetih 
+popusta na artikle u korpi
+Severity: High Priority: High Mislim da je visok i sverity i priority s obzorim da ovaj bug moze da dovede do velikog broja 
+ogorcenih korisnika koji bi smatrali da su prevareni i opljackani. Oni posle ovoga vise ne bi kupovali na tom sajtu
+ovo iskustvo bi verovatno podelili na drustvenim mrezama sto bi sve negativno uticalo na poslovanje firme i opadanje prometa.
+
+b.Pri registraciji na aplikaciju za angazovanje spermacice, korisnik unese svoje podatke, i ocekuje email da bi se verifikovao. 
+Email stigne tek sutradan.
+Severity: High Priority: Medium Ovo je veliki bug s obzirom da bi mail trebalo da stigne odmah, ali priority moze da bude medium 
+jer je pretpostavka da se na ovu vrstu servisa nece prijavljivati ogroman broj ljudi i da odlozena registracija nece dovesti
+do velikih gubitaka kompaniji.
+
+c.Pri popunjavanju prijavnog formulara za upis deteta u vrtic, roditelji ne mogu da podnesu prijavu ako unesu broj telefona bez
+ znaka +. Validaciona poruka na frontendu ne postoji. Ne postoji ni placeholder koji bi dao do znanja u kojoj firmi treba da se 
+ unese broj telefona.
+Severity: Medium Priority: High Ovo mozda nije neki ogroman bag, ali bi bilo vazno da se popravi u kratkom roku kako se ne bi
+desilo da zbog njega neka deca ostanu bez mesta u vrticu.
+
+
+4. Tim primećuje da često kasne sa zadatim rokovima. Uzrok kašnjenja može biti nedostatak dobre koordinacije i komunikacije 
+unutar tima, nepotpuna dokumentacija ili neki drugi faktori. Na kojem Scrum eventu tim bi trebao da reši ovaj problem?
+
+Na daily scrumu.
+
+5. Koja vrsta nefunkcionalnog testa je jako vazna bila da se radi na Netflix-u za vreme korone?
+
+Performace testing kako bi se testiralo kako sistem funkcionise u trenutcima opterecenja velikim brojem korisnika.
